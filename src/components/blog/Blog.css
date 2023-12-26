@@ -1,0 +1,51 @@
+.blog{
+    background-color: rgb(255, 254, 252);
+   
+}
+
+
+.blog h1{
+    text-align: center;
+    font-family: "Jost",sans-serif;
+    letter-spacing: 2px;
+    margin-top: 70px;
+}
+.os{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+}
+.blog-text span{
+    font-size: 15px;
+    color: gray;
+    padding: 0px 5px;
+}
+.blog-txt-date{
+    padding: 10px 0px;
+}
+
+.blog-txt-desc{
+    padding: 0px 0px 10px 0px; 
+    
+}
+.blog-txt-desc h2{
+    font-weight: 500;
+}
+.blog-txt-desc p{
+    padding: 10px 0px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.readmore{
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+}

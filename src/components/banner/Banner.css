@@ -1,0 +1,219 @@
+.banner {
+  display: flex;
+  justify-content: center;
+
+}
+
+.b1 {
+  display: flex;
+  
+  gap: 20px;
+}
+
+.b2 {
+  gap: 12px;
+  display: flex;
+  
+  flex-direction: column !important;
+}
+
+.banner img{
+  border-radius: 20px;
+}
+.one-desc{
+ 
+  position: absolute;
+  margin-left: 37%;
+  margin-top: 15%;
+}
+.one-desc2{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 90px;
+}
+.one-desc3{
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 50px;
+}
+
+
+
+
+.one-desc p {
+  font-size: 20px; 
+  color: #333; 
+}
+
+.one-desc h1.desc {
+  font-size: 48px; 
+  color: #000000; 
+  margin: 10px 0; 
+}
+
+.one-desc p:last-child {
+  position: relative; 
+  display: inline-block; 
+  background-color: rgb(101, 136, 182); 
+  color: #fff; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-weight: bold; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 170px;
+}
+
+.one-desc p:last-child::after {
+  content: '\2192'; 
+  position: absolute; 
+  right: 10px; 
+  transition: transform 0.3s ease; 
+}
+
+.one-desc p:last-child:hover {
+  background-color: #837b78;
+}
+
+.one-desc p:last-child:hover::after {
+  transform: translateX(5px);
+}
+
+
+
+
+
+
+
+
+
+.one-desc2 p {
+  font-size: 20px; 
+  color: #333; 
+}
+
+.one-desc2 h1.desc {
+  font-size: 48px; 
+  color: #000000; 
+  margin: 10px 0; 
+}
+
+.one-desc2 p:last-child {
+  position: relative; 
+  display: inline-block; 
+  background-color: #caa69e; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-weight: bold; 
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  width: 160px;
+}
+
+.one-desc2 p:last-child::after {
+  content: '\2192'; 
+  position: absolute; 
+  right : 10px; 
+  transition: transform 0.3s ease; 
+}
+
+.one-desc2 p:last-child:hover {
+  background-color: #837b78; 
+}
+
+.one-desc2 p:last-child:hover::after {
+  transform: translateX(5px); 
+}
+
+
+
+
+
+.one-desc3 p {
+  font-size: 18px; 
+  color: #333; 
+}
+
+.one-desc3 h1.desc {
+  font-size: 36px; 
+  color: #000000; 
+  margin: 6px 0; 
+}
+
+.one-desc3 p:last-child {
+  position: relative; 
+  display: inline-block; 
+  background-color: #471616; 
+  color: #fff; 
+  padding: 5px 10px; 
+  border-radius: 5px;
+  cursor: pointer; 
+  font-weight: bold; 
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  width: 140px;
+}
+
+.one-desc3 p:last-child::after {
+  content: '\2192'; 
+  position: absolute; 
+  right: 10px; 
+  transition: transform 0.3s ease; 
+}
+
+.one-desc3 p:last-child:hover {
+  background-color: #837b78; 
+}
+
+.one-desc3 p:last-child:hover::after {
+  transform: translateX(5px); 
+}
+
+
+
+
+@media (max-width:1182px) {
+ .b1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+.one-desc{
+  margin-left: 58%;
+  margin-top: 10%;
+}
+.one-desc2{
+  margin-left: 18%;
+  margin-top: 20%;
+}
+.one-desc3{
+  margin-left: 15%;
+  margin-top: 10%;
+}
+.image2{
+  max-width: 1050px !important;
+}
+.image3{
+  max-width: 1050px !important;
+}
+}
+
+
+
+
+.image1{
+  max-width: 1090px;
+  width: 100% !important;
+  height: auto !important;
+ 
+}
+.image2{
+  max-width: 600px;
+  width: 100% !important;
+  height: auto !important;
+}
+.image3{
+  max-width: 600px;
+  width: 100% !important;
+  height: auto !important;
+}

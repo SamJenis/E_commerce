@@ -1,0 +1,12 @@
+.brand-logo{
+    opacity: 0.6;
+}
+.brand-carousel{
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+}
+.brand-logo:hover{
+    opacity: 1;
+}
+

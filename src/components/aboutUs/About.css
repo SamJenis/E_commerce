@@ -1,0 +1,39 @@
+.abtimg{
+    width: 100%;
+    height: 650px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@media (max-width:786px){
+    .abtimg{
+        background-position: center;
+        height: 400px;
+    }
+    .abttxt p{
+        font-size: 50px;
+        margin-top: -120px;
+    }
+
+}
+
+.abttxt{
+    text-align: center;
+    padding-top: 240px;
+}
+.abtp{
+    color: #e0d4d4;
+    margin-bottom: 20px;
+    font-family: 'Cinzel', serif;
+    font-weight: 100;
+    font-size: 70px;
+}
+.abttxt button{
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: black;
+}
