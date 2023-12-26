@@ -1,4 +1,5 @@
 import React from 'react'
+import banner1 from './imagess/flash/banner-01.jpg'
 
 const Cards = () => {
   return (
@@ -10,7 +11,7 @@ const Cards = () => {
             <p className='desc'>Summer 2023</p>
             <p>Shop now</p>
           </div>
-          <img style={{ width: '400px', height: "280px" }} src='./imagess/flash/banner-01.jpg' />
+          <img style={{ width: '400px', height: "280px" }} src={banner1} />
         </div>
 
         <div className='p1'>
