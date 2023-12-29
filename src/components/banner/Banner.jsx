@@ -14,7 +14,7 @@ const Banner = () => {
             <h1 className='desc'>Street Wear.</h1>
             <Link to='/Shop'><p>Shop now</p></Link>
           </div>
-          <img className='image1' src='./imagess/banner/street-wear03.jpg' style={{ width: '1090px' }} />
+          <img className='image1' src= {`${process.env.PUBLIC_URL}/imagess/banner/street-wear03.jpg`} style={{ width: '1090px' }} />
 
         </div>
         <div className='b2'>
@@ -24,7 +24,7 @@ const Banner = () => {
               <h1 className='desc'>sweater.</h1>
               <Link to='/Shop'><p>Shop now</p></Link>
             </div>
-            <img className='image2' src='./imagess/banner/winter1.jpg' style={{ width: '600px' }} />
+            <img className='image2' src={`${process.env.PUBLIC_URL}/imagess/banner/winter1.jpg`} style={{ width: '600px' }} />
           </div>
 
           <div className='three' >
@@ -33,7 +33,7 @@ const Banner = () => {
               <h1 className='desc'>Shoes.</h1>
               <Link to='/Shop'><p>Shop now</p></Link>
             </div>
-            <img className='image3' src='./imagess/banner/shoes.jpg' style={{ width: '600px' }} />
+            <img className='image3' src={`${process.env.PUBLIC_URL}/imagess/banner/shoes.jpg`} style={{ width: '600px' }} />
           </div>
         </div>
       </div>

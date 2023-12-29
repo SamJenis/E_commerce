@@ -11,26 +11,26 @@ const SlideCard = () => {
           id: 1,
           title: "Women's Fashion",
           desc: "NEW ARRIVALS",
-          cover: "./imagess/slides/banner1.jpg",
+          cover: `${process.env.PUBLIC_URL}/imagess/slides/banner1.jpg`,
           
         },
         {
           id: 2,
           title: "Mens collection 2023",
           desc: "NEW ARRIVALS",
-          cover: "./imagess/slides/hero-002.jpg",
+          cover: `${process.env.PUBLIC_URL}/imagess/slides/hero-002.jpg`,
         },
         {
           id: 3,
           title: "Winter collections",
           desc: "NEW SEASON",
-          cover: "./imagess/slides/slide-01.jpg",
+          cover: `${process.env.PUBLIC_URL}/imagess/slides/slide-01.jpg`,
         },
         {
           id: 4,
           title: "Summer Collections",
           desc: "NEW SEASON",
-          cover: "./imagess/slides/slide-04.jpg",      
+          cover: `${process.env.PUBLIC_URL}/imagess/slides/slide-04.jpg`,     
           },
       ]
   const settings = {

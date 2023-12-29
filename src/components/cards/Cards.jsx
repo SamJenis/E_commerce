@@ -1,5 +1,4 @@
 import React from 'react'
-import banner1 from './imagess/flash/banner-01.jpg'
 
 const Cards = () => {
   return (
@@ -11,7 +10,7 @@ const Cards = () => {
             <p className='desc'>Summer 2023</p>
             <p>Shop now</p>
           </div>
-          <img style={{ width: '400px', height: "280px" }} src={banner1} />
+          <img style={{ width: '400px', height: "280px" }} src={`${process.env.PUBLIC_URL}/imagess/flash/banner-01.jpg`} />
         </div>
 
         <div className='p1'>
@@ -20,7 +19,7 @@ const Cards = () => {
             <p className='desc'>Summer 2023</p>
             <p>Shop now</p>
           </div>
-          <img style={{ width: '400px', height: "280px" }} src='./imagess/flash/banner-02.jpg' />
+          <img style={{ width: '400px', height: "280px" }} src={`${process.env.PUBLIC_URL}/imagess/flash/banner-02.jpg`} />
         </div>
 
         <div className='p1'>
@@ -29,7 +28,7 @@ const Cards = () => {
             <p className='desc'>Trending</p>
             <p>Shop now</p>
           </div>
-          <img style={{ width: '400px', height: "280px" }} src='./imagess/flash/banner-07.jpg' />
+          <img style={{ width: '400px', height: "280px" }} src={`${process.env.PUBLIC_URL}/imagess/flash/banner-07.jpg`} />
         </div>
 
       </div>

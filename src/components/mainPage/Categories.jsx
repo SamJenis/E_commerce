@@ -6,47 +6,47 @@ const Categories = () => {
     
   const data = [
     {
-      cateImg: "./imagess/category/search.png",
+      cateImg: `${process.env.PUBLIC_URL}/imagess/category/search.png`,
       cateName: "Fashion",
     },
     {
-      cateImg: "./imagess/category/shirts.png",
+      cateImg: `${process.env.PUBLIC_URL}/imagess/category/shirts.png`,
       cateName: "Shirts",
     },
     {
-      cateImg: "./imagess/category/tshirt.png",
+      cateImg: `${process.env.PUBLIC_URL}/imagess/category/tshirt.png`,
       cateName: "T-Shirts",
     },
     {
-      cateImg: "./imagess/category/pants.png",
+      cateImg: `${process.env.PUBLIC_URL}/imagess/category/pants.png`,
       cateName: "Jeans",
     },
     {
-      cateImg: "./imagess/category/sportswear.png",
+      cateImg: `${process.env.PUBLIC_URL}/imagess/category/sportswear.png`,
       cateName: "Sports Wear",
     },
     {
-      cateImg: "./imagess/category/swimwear.png",
+      cateImg: `${process.env.PUBLIC_URL}/imagess/category/swimwear.png`,
       cateName: "Swim Suits",
     },
     {
-      cateImg: "./imagess/category/coverall.png",
+      cateImg: `${process.env.PUBLIC_URL}/imagess/category/coverall.png`,
       cateName: "Jumpsuits",
     },
     {
-      cateImg: "./imagess/category/jacket.png",
+      cateImg: `${process.env.PUBLIC_URL}/imagess/category/jacket.png`,
       cateName: "Jackets",
     },
     {
-      cateImg: "./imagess/category/baby-clothes.png",
+      cateImg: `${process.env.PUBLIC_URL}/imagess/category/baby-clothes.png`,
       cateName: "Baby Dress",
     },
     {
-      cateImg: "./imagess/category/blazer.png",
+      cateImg: `${process.env.PUBLIC_URL}/imagess/category/blazer.png`,
       cateName: "Blazers",
     },
     {
-      cateImg: "./imagess/category/sneakers.png",
+      cateImg: `${process.env.PUBLIC_URL}/imagess/category/sneakers.png`,
       cateName: "Shoes",
     },
   ]
