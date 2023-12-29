@@ -11,7 +11,11 @@ const SlideCard = () => {
           id: 1,
           title: "Women's Fashion",
           desc: "NEW ARRIVALS",
+<<<<<<< HEAD
           cover: `${process.env.PUBLIC_URL}/imagess/slides/banner1.jpg`,
+=======
+          cover: "imagess/slides/banner1.jpg",
+>>>>>>> 532ee332754661c864b2c72622178c0e226c45a7
           
         },
         {
