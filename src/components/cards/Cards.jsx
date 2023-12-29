@@ -20,7 +20,7 @@ const Cards = () => {
             <p className='desc'>Summer 2023</p>
             <p>Shop now</p>
           </div>
-          <img style={{ width: '400px', height: "280px" }} src='./imagess/flash/banner-02.jpg' />
+          <img style={{ width: '400px', height: "280px" }} src={`${process.env.PUBLIC_URL}/imagess/flash/banner-02.jpg`} />
         </div>
 
         <div className='p1'>
