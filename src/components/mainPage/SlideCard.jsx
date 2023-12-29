@@ -11,7 +11,7 @@ const SlideCard = () => {
           id: 1,
           title: "Women's Fashion",
           desc: "NEW ARRIVALS",
-          cover: "./imagess/slides/banner1.jpg",
+          cover: "imagess/slides/banner1.jpg",
           
         },
         {
