@@ -59,13 +59,13 @@ const Brand = () => {
 
         <Carousel {...settings} responsive={responsive} className='mmtop brand-carousel'>
 
-          <img className='brand-logo' src='./imagess/brands/brand-logo-03.png' style={{ width: '150px', height: '100px', border: 'none' }} />
-          <img className='brand-logo' src='./imagess/brands/brand-logo-04.png' style={{ width: '150px', height: '100px', border: 'none' }} />
-          <img className='brand-logo' src='./imagess/brands/brand-logo-05.png' style={{ width: '150px', height: '100px', border: 'none' }} />
-          <img className='brand-logo' src='./imagess/brands/brand-logo-06.png' style={{ width: '150px', height: '100px', border: 'none' }} />
+          <img className='brand-logo' src={`${process.env.PUBLIC_URL}/imagess/brands/brand-logo-04.png`} style={{ width: '150px', height: '100px', border: 'none' }} />
+          <img className='brand-logo' src={`${process.env.PUBLIC_URL}/imagess/brands/brand-logo-05.png`} style={{ width: '150px', height: '100px', border: 'none' }} />
+          <img className='brand-logo' src={`${process.env.PUBLIC_URL}/imagess/brands/brand-logo-06.png`} style={{ width: '150px', height: '100px', border: 'none' }} />
+          <img className='brand-logo' src={`${process.env.PUBLIC_URL}/imagess/brands/brand-logo-03.png`} style={{ width: '150px', height: '100px', border: 'none' }} />
 
-          <img className='brand-logo' src='./imagess/brands/brand-logo-01.png' style={{ width: '150px', height: '100px', border: 'none' }} />
-          <img className='brand-logo' src='./imagess/brands/brand-logo-02.png' style={{ width: '150px', height: '100px', border: 'none' }} />
+          <img className='brand-logo' src={`${process.env.PUBLIC_URL}/imagess/brands/brand-logo-01.png`} style={{ width: '150px', height: '100px', border: 'none' }} />
+          <img className='brand-logo' src={`${process.env.PUBLIC_URL}/imagess/brands/brand-logo-02.png`} style={{ width: '150px', height: '100px', border: 'none' }} />
 
         </Carousel>
       </div>

@@ -20,7 +20,7 @@ const Blogs = () => {
 
                 <div style={{width:'360px'}}>
                 <div className='mtop'>
-                    <img style={{ height: "260px", width: '360px' }} src='./imagess/banner/erik-mclean-waCVXubYxvg-unsplash.jpg' alt='' />
+                    <img style={{ height: "260px", width: '360px' }} src={`${process.env.PUBLIC_URL}/imagess/banner/erik-mclean-waCVXubYxvg-unsplash.jpg`} alt='' />
                 </div>
                 <div className='blog-text'>
                     <div className='blog-txt-date'>
@@ -38,7 +38,7 @@ const Blogs = () => {
 
                 <div style={{width:'360px'}}>
                 <div className='mtop'>
-                    <img style={{ height: "260px", width: '360px' }} src='./imagess/banner/pexels-cottonbro-studio-6627106.jpg' alt='' />
+                <img style={{ height: "260px", width: '360px' }} src={`${process.env.PUBLIC_URL}/imagess/banner/pexels-cottonbro-studio-6627106.jpg`} alt='' />
                 </div>
                 <div className='blog-text'>
                     <div className='blog-txt-date'>
@@ -57,7 +57,7 @@ const Blogs = () => {
 
                 <div style={{width:'360px'}}>
                 <div className='mtop'>
-                    <img style={{ height: "260px", width: '360px' }} src='./imagess/banner/chimi-davila-58FCfyUti_w-unsplash.jpg' alt='' />
+                    <img style={{ height: "260px", width: '360px' }} src={`${process.env.PUBLIC_URL}/imagess/banner/chimi-davila-58FCfyUti_w-unsplash.jpg`}  alt='' />
                 </div>
                 <div className='blog-text'>
                     <div className='blog-txt-date'>

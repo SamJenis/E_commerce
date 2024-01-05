@@ -9,7 +9,7 @@ const Insta = () => {
         <div className='insta mmtop'>
 
                 <div className='insta-item gradient-bg' style={{
-                    backgroundImage: 'url(imagess/flash/gallery-02.jpg)',
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/imagess/flash/gallery-02.jpg)`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                 }}>
@@ -20,7 +20,7 @@ const Insta = () => {
                 </div>
 
                 <div className='insta-item gradient-bg' style={{
-                    backgroundImage: 'url(imagess/flash/gallery-03.jpg)',
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/imagess/flash/gallery-03.jpg)`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                 }}><div className='insta-txt'>
@@ -29,17 +29,7 @@ const Insta = () => {
             </div></div>
 
                 <div className='insta-item gradient-bg' style={{
-                    backgroundImage: 'url(imagess/flash/gallery-05.jpg)',
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                }}><div className='insta-txt'>
-                <i className='fainsta'><FaInstagram /></i>
-                <p><a href='#'>@snitch_collection</a></p>
-            </div></div>
-
-
-                <div className='insta-item gradient-bg' style={{
-                    backgroundImage: 'url(imagess/flash/gallery-04.jpg)',
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/imagess/flash/gallery-05.jpg)`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                 }}><div className='insta-txt'>
@@ -49,7 +39,7 @@ const Insta = () => {
 
 
                 <div className='insta-item gradient-bg' style={{
-                    backgroundImage: 'url(imagess/flash/gallery-06.jpg)',
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/imagess/flash/gallery-04.jpg)`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                 }}><div className='insta-txt'>
@@ -59,7 +49,17 @@ const Insta = () => {
 
 
                 <div className='insta-item gradient-bg' style={{
-                    backgroundImage: 'url(imagess/flash/gallery-07.jpg)',
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/imagess/flash/gallery-06.jpg)`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                }}><div className='insta-txt'>
+                <i className='fainsta'><FaInstagram /></i>
+                <p><a href='#'>@snitch_collection</a></p>
+            </div></div>
+
+
+                <div className='insta-item gradient-bg' style={{
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/imagess/flash/gallery-07.jpg)`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                 }}><div className='insta-txt'>

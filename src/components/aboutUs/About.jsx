@@ -8,7 +8,7 @@ const About = () => {
            <div
         className='abtimg'
         style={{
-          backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagess/flash/blog-04.jpg)',
+          backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("${process.env.PUBLIC_URL}/imagess/flash/blog-04.jpg")`,
         }}
       >
         <div className='abttxt'>
